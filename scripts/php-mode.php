@@ -21,6 +21,7 @@
 	$email_on	= 'yes';
 	$sites_on	= 'yes';
 	$passwd_on	= 'yes';
+	$js_title	= '';
 
 	if ($page_title == 'yes') {
 		$js_title = '<script type="text/javascript">if (document.title != "") { document.write(" on \"" + document.title + "\"") };</script>';
